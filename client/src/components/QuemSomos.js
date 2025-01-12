@@ -21,13 +21,10 @@ import MariaClara from './imgs/qs/Maria-Clara.jpg';
 import NataliaRosa from './imgs/qs/Natalia-Rosa.jpg';
 import NicholasLage from './imgs/qs/Nicholas-Lage.jpg';
 import PauloIsidro from './imgs/qs/Paulo-Isidro.jpeg';
-import RaulSztutman from './imgs/qs/Raul-Sztutman.jpg';
 
 // Física
 
 import LucasCavalcante from './imgs/qs/Lucas-Cavalcante.jpg';
-import AlefeRyan from './imgs/qs/Alefe-Ryan.jpg';
-import DanielaEmilia from './imgs/qs/Daniela-Emilia.jpg';
 import GabrielDorigon from './imgs/qs/Gabriel-Dorigon.jpg';
 import GuilhermeMartins from './imgs/qs/Guilherme-Martins.jpg';
 import GustavoGlobig from './imgs/qs/Gustavo-Globig.jpg';
@@ -47,9 +44,15 @@ import FelipeMota from './imgs/qs/Felipe-Mota.jpeg';
 
 // Química
 
-import LeonardoTorres from './imgs/qs/Leonardo-Torres.jpg';
 import AnnaKessya from './imgs/qs/Anna-Kessya.jpg';
 import LuizClaudio from './imgs/qs/Luiz-Claudio.jpg';
+
+// Ex Colaboradores
+
+import RaulSztutman from './imgs/qs/Raul.jpeg';
+import AlefeRyan from './imgs/qs/Alefe-Ryan.jpg';
+import DanielaEmilia from './imgs/qs/Daniela-Emilia.jpg';
+import LeonardoTorres from './imgs/qs/Leonardo-Torres.jpg';
 
 const QuemSomos = () => {
     return (
@@ -196,13 +199,6 @@ const QuemSomos = () => {
                         <h5 class="textozao">Criador de Materiais</h5>
                     </center>
                 </div>
-                <div class="membro">
-                    <img src={RaulSztutman} class="imagem-circular"/>
-                    <center>
-                        <h3 class="fontezao3cor">Raul Sztutman</h3>
-                        <h5 class="textozao">Criador de Materiais</h5>
-                    </center>
-                </div>
             </div>
             <br/>
             <h3 className="fontezaocor">Departamento de Física</h3>
@@ -212,20 +208,6 @@ const QuemSomos = () => {
                     <center>
                         <h3 class="fontezao3cor">Lucas Cavalcante</h3>
                         <h5 class="textozao">Coordenador</h5>
-                    </center>
-                </div>
-                <div class="membro">
-                    <img src={AlefeRyan} class="imagem-circular"/>
-                    <center>
-                        <h3 class="fontezao3cor">Alefe Ryan</h3>
-                        <h5 class="textozao">Criador de Materiais</h5>
-                    </center>
-                </div>
-                <div class="membro">
-                    <img src={DanielaEmilia} class="imagem-circular"/>
-                    <center>
-                        <h3 class="fontezao3cor">Daniela Emília</h3>
-                        <h5 class="textozao">Criadora de Materiais</h5>
                     </center>
                 </div>
                 <div class="membro">
@@ -341,13 +323,6 @@ const QuemSomos = () => {
             <h3 className="fontezaocor">Departamento de Química</h3>
             <div class="equipe-container">
                 <div class="membro">
-                    <img src={LeonardoTorres} class="imagem-circular"/>
-                    <center>
-                        <h3 class="fontezao3cor">Leonardo Torres</h3>
-                        <h5 class="textozao">Coordenador</h5>
-                    </center>
-                </div>
-                <div class="membro">
                     <img src={AnnaKessya} class="imagem-circular"/>
                     <center>
                         <h3 class="fontezao3cor">Anna Kessya</h3>
@@ -366,6 +341,38 @@ const QuemSomos = () => {
                     <center>
                         <h3 class="fontezao3cor">Rebeca Mikai</h3>
                         <h5 class="textozao">Criadora de Materiais</h5>
+                    </center>
+                </div>
+            </div>
+            <br/>
+            <h3 className="fontezaocor">Ex Colaboradores</h3>
+            <div class="equipe-container">
+                <div class="membro">
+                    <img src={RaulSztutman} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Raul Sztutman</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
+                    </center>
+                </div>
+                <div class="membro">
+                    <img src={AlefeRyan} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Alefe Ryan</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
+                    </center>
+                </div>
+                <div class="membro">
+                    <img src={DanielaEmilia} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Daniela Emília</h3>
+                        <h5 class="textozao">Criadora de Materiais</h5>
+                    </center>
+                </div>
+                <div class="membro">
+                    <img src={LeonardoTorres} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Leonardo Torres</h3>
+                        <h5 class="textozao">Coordenador</h5>
                     </center>
                 </div>
             </div>

@@ -13,7 +13,7 @@ const Home = () => {
                 </div>
                 <br/>
                 <div class="content">
-                    <h1 class="fonte">DEMOCRATIZANDO À EDUCAÇÃO</h1>
+                    <h1 class="fonte">DEMOCRATIZANDO A EDUCAÇÃO</h1>
                     <hr class="line2"></hr>
                     <div class="textao">
                         <h4>Movidos pela determinação de transformar o Brasil,<span class="destaque"> o projeto Olympic Birds tem como propósito fundamental aumentar o acesso a oportunidades acadêmicas</span>, como olimpíadas científicas e vestibulares. Além disso, para os engajados, oferece conteúdos de qualidade excepcional para capacitá-los ao mais alto nível.</h4>

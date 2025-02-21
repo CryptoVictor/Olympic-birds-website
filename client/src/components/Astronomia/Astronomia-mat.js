@@ -49,18 +49,22 @@ import aula10_kaua from '../docs/materiais/material-astronomia/kaua/Aula_10.pdf'
 import aula11_kaua from '../docs/materiais/material-astronomia/kaua/Aula_11.pdf';
 import aula12_kaua from '../docs/materiais/material-astronomia/kaua/Aula_12.pdf';
 
+// materiais
+
+import apostila from '../docs/materiais/material-astronomia/apostila.pdf';
+
 const Astronomiamat = () => {
     return (
         <div>
             <h1 class="fontizzao">MATERIAIS - ASTRONOMIA</h1>
             <hr class="line3"></hr>
             <center>
-            <div className="text-container2">
-                <h4 className="corzaoo">
-                Para aprender os principais conteúdos que costumam aparecer em olimpíadas científicas, esta seção é o lugar ideal. Aqui, você encontrará materiais organizados para ajudar a fortalecer sua base de conhecimentos e desenvolver as habilidades necessárias para se destacar. Pronto(a) para alcançar novos patamares?
-                </h4>
-            </div>
-            <br/>
+                <div className="text-container2">
+                    <h4 className="corzaoo">
+                        Para aprender os principais conteúdos que costumam aparecer em olimpíadas científicas, esta seção é o lugar ideal. Aqui, você encontrará materiais organizados para ajudar a fortalecer sua base de conhecimentos e desenvolver as habilidades necessárias para se destacar. Pronto(a) para alcançar novos patamares?
+                    </h4>
+                </div>
+                <br />
             </center>
             <div class="fundo">
                 <center>
@@ -70,11 +74,11 @@ const Astronomiamat = () => {
                 </center>
                 <div class="equipe-container">
                     <div class="membro">
-                        <img src={NataliaRosa} class="imagem-circular"/>
+                        <img src={NataliaRosa} class="imagem-circular" />
                         <center>
                             <h3 class="fontezao3cor">Natália Rosa</h3>
                             <h5 class="textozao">Astronomia de Posição</h5>
-                            <br/>
+                            <br />
                             <a class="none" href={aula1_nat}>
                                 <h5 class="fontezao3cor">Aula 1</h5>
                             </a>
@@ -117,11 +121,11 @@ const Astronomiamat = () => {
                         </center>
                     </div>
                     <div class="membro">
-                        <img src={MariaClara} class="imagem-circular"/>
+                        <img src={MariaClara} class="imagem-circular" />
                         <center>
                             <h3 class="fontezao3cor">Maria Clara</h3>
                             <h5 class="textozao">Fotometria</h5>
-                            <br/>
+                            <br />
                             <a class="none" href={aula1_maria} >
                                 <h5 class="fontezao3cor">Aula 1</h5>
                             </a>
@@ -158,11 +162,11 @@ const Astronomiamat = () => {
                         </center>
                     </div>
                     <div class="membro">
-                        <img src={KauaVictor} class="imagem-circular"/>
+                        <img src={KauaVictor} class="imagem-circular" />
                         <center>
                             <h3 class="fontezao3cor">Kauã Victor</h3>
                             <h5 class="textozao">Mecânica Celeste</h5>
-                            <br/>
+                            <br />
                             <a class="none" href={aula1_kaua} >
                                 <h5 class="fontezao3cor">Aula 1</h5>
                             </a>
@@ -202,6 +206,21 @@ const Astronomiamat = () => {
                         </center>
                     </div>
                 </div>
+                <br />
+                <center>
+                    <div className="text-container3">
+                        <h4 className="fontezao7cor">Apostila Fênix</h4>
+                        <h4 className="cor">
+                            Seletiva
+                        </h4>
+                    </div>
+                    <div class="text-container4">
+                        <a class="active" href={apostila}>
+                            <h4 className="cordiffff">Material</h4>
+                        </a>
+                    </div>
+                    <br />
+                </center>
             </div>
         </div>
     );

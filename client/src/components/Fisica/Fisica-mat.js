@@ -5,9 +5,10 @@ import React from 'react';
 import matele from '../docs/materiais/material-fisica/Matemática_Para_Eletrostática.pdf';
 import momli from '../docs/materiais/material-fisica/Momento_Linear.pdf';
 import oncor from '../docs/materiais/material-fisica/Ondas_em_Cordas.pdf';
-import potele from '../docs/materiais/material-fisica/Óptica_Geométrica.pdf';
-import propg from '../docs/materiais/material-fisica/Potencial_Elétrico.pdf';
+import propg from '../docs/materiais/material-fisica/Óptica_Geométrica.pdf';
+import potele from '../docs/materiais/material-fisica/Potencial_Elétrico.pdf';
 import matrel from '../docs/materiais/material-fisica/Materiais_Relatividade__Física___OB.pdf';
+import matopt from '../docs/materiais/material-fisica/opticageometricca.pdf';
 
 const Fisicamat = () => {
     return (
@@ -24,6 +25,18 @@ const Fisicamat = () => {
             </center>
             <div class="fundo">
                 <center>
+                    <div className="text-container3">
+                        <h4 className="fontezao7cor">Óptica geométrica</h4>
+                        <h4 className="cor">
+                            OBF | ITA/IME | SOIF
+                        </h4>
+                    </div>
+                    <div class="text-container4">
+                        <a class="active" href={matopt}>
+                            <h4 className="cordiffff">Material</h4>
+                        </a>
+                    </div>
+                    <br />
                     <div className="text-container3">
                         <h4 className="fontezao7cor">Introdução à Relatividade</h4>
                         <h4 className="cor">

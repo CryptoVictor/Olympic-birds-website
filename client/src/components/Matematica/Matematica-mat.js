@@ -7,6 +7,7 @@ import esin from '../docs/materiais/material-matematica/Material_2.pdf';
 import pee from '../docs/materiais/material-matematica/Material_3.pdf';
 import lgc from '../docs/materiais/material-matematica/Material_4.pdf';
 import calc from '../docs/materiais/material-matematica/Cálculo_1_Para_Olimpíadas_OB.pdf';
+import prep from '../docs/materiais/material-matematica/Preparatório_OBMEP___Raciocínio_Lógico.pdf';
 
 const Matematicamat = () => {
     return (
@@ -23,6 +24,23 @@ const Matematicamat = () => {
             </center>
             <div class="fundo">
                 <center>
+                    <div className="text-container3">
+                        <h4 className="fontezao7cor">Preparatório OBMEP</h4>
+                        <h4 className="cor">
+                            OBMEP
+                        </h4>
+                    </div>
+                    <div class="text-container4">
+                        <a class="active" href="https://www.youtube.com/watch?v=wKw-ZmEwCdw">
+                            <h4 className="cordiffff">Aula</h4>
+                        </a>
+                    </div>
+                    <div class="text-container4">
+                        <a class="active" href={prep}>
+                            <h4 className="cordiffff">Material</h4>
+                        </a>
+                    </div>
+                    <br />
                     <div className="text-container3">
                         <h4 className="fontezao7cor">Livro Cálculo 1</h4>
                         <h4 className="cor">

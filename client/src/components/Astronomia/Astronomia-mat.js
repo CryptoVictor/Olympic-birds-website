@@ -52,6 +52,7 @@ import aula12_kaua from '../docs/materiais/material-astronomia/kaua/Aula_12.pdf'
 // materiais
 
 import apostila from '../docs/materiais/material-astronomia/apostila.pdf';
+import apostil from '../docs/materiais/material-astronomia/Materiais_OBA___OB_Astronomia.pdf';
 
 const Astronomiamat = () => {
     return (
@@ -216,6 +217,18 @@ const Astronomiamat = () => {
                     </div>
                     <div class="text-container4">
                         <a class="active" href={apostila}>
+                            <h4 className="cordiffff">Material</h4>
+                        </a>
+                    </div>
+                    <br />
+                    <div className="text-container3">
+                        <h4 className="fontezao7cor">Apostila OBA</h4>
+                        <h4 className="cor">
+                            OBA
+                        </h4>
+                    </div>
+                    <div class="text-container4">
+                        <a class="active" href={apostil}>
                             <h4 className="cordiffff">Material</h4>
                         </a>
                     </div>

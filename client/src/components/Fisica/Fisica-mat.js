@@ -9,6 +9,7 @@ import propg from '../docs/materiais/material-fisica/Óptica_Geométrica.pdf';
 import potele from '../docs/materiais/material-fisica/Potencial_Elétrico.pdf';
 import matrel from '../docs/materiais/material-fisica/Materiais_Relatividade__Física___OB.pdf';
 import matopt from '../docs/materiais/material-fisica/opticageometricca.pdf';
+import cinema from '../docs/materiais/material-fisica/Aula2Cinemática.pdf';
 
 const Fisicamat = () => {
     return (
@@ -25,6 +26,18 @@ const Fisicamat = () => {
             </center>
             <div class="fundo">
                 <center>
+                    <div className="text-container3">
+                        <h4 className="fontezao7cor">Cinemática</h4>
+                        <h4 className="cor">
+                            OBF | ITA/IME | SOIF
+                        </h4>
+                    </div>
+                    <div class="text-container4">
+                        <a class="active" href={cinema}>
+                            <h4 className="cordiffff">Material</h4>
+                        </a>
+                    </div>
+                    <br />
                     <div className="text-container3">
                         <h4 className="fontezao7cor">Óptica geométrica</h4>
                         <h4 className="cor">
